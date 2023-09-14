@@ -1,0 +1,49 @@
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+    border: 1px solid;
+    width: max-content;
+    padding: 20px 40px 20px 20px;
+}
+
+form select{
+    width: 184px;
+    border-radius: 2px;
+}
+
+form > div:last-child{
+    gap: 16px;
+    align-self: center;
+    display: flex;
+}
+
+form > div{
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+form > div > div{
+    width: min-content;
+}
+
+/* input:invalid{
+    background-color: #ff6969;
+} */
+
+input{
+    border-radius: 2px;
+}
+
+button{
+    padding: 2px 16px;
+    border-radius: 2px;
+}
+
+.error{
+    font-size: 0.75em;
+    color: crimson;
+}
